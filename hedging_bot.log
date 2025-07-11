@@ -1,0 +1,359 @@
+2025-07-11 23:48:01,381 | INFO | Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-07-11 23:48:01,387 | INFO | Added job "start_background_monitoring.<locals>.monitor_users" to job store "default"
+2025-07-11 23:48:01,387 | INFO | Scheduler started
+2025-07-11 23:48:01,389 | INFO | Bot started and polling.
+2025-07-11 23:48:02,143 | INFO | HTTP Request: POST https://api.telegram.org/bot7960268313:AAHiZBou5-jdbrK4OEtE3pdGxPd3J914y70/getMe "HTTP/1.1 200 OK"
+2025-07-11 23:48:02,349 | INFO | HTTP Request: POST https://api.telegram.org/bot7960268313:AAHiZBou5-jdbrK4OEtE3pdGxPd3J914y70/deleteWebhook "HTTP/1.1 200 OK"
+2025-07-11 23:48:02,349 | INFO | Scheduler started
+2025-07-11 23:48:02,349 | INFO | Application started
+2025-07-11 23:48:11,389 | INFO | Running job "start_background_monitoring.<locals>.monitor_users (trigger: interval[0:00:10], next run at: 2025-07-11 23:48:11 IST)" (scheduled at 2025-07-11 23:48:11.381790+05:30)
+2025-07-11 23:48:11,390 | INFO | Job "start_background_monitoring.<locals>.monitor_users (trigger: interval[0:00:10], next run at: 2025-07-11 23:48:21 IST)" executed successfully
+2025-07-11 23:48:12,999 | INFO | HTTP Request: POST https://api.telegram.org/bot7960268313:AAHiZBou5-jdbrK4OEtE3pdGxPd3J914y70/getUpdates "HTTP/1.1 200 OK"
+2025-07-11 23:48:21,392 | INFO | Running job "start_background_monitoring.<locals>.monitor_users (trigger: interval[0:00:10], next run at: 2025-07-11 23:48:31 IST)" (scheduled at 2025-07-11 23:48:21.381790+05:30)
+2025-07-11 23:48:21,393 | INFO | Job "start_background_monitoring.<locals>.monitor_users (trigger: interval[0:00:10], next run at: 2025-07-11 23:48:31 IST)" executed successfully
+2025-07-11 23:48:23,153 | INFO | HTTP Request: POST https://api.telegram.org/bot7960268313:AAHiZBou5-jdbrK4OEtE3pdGxPd3J914y70/getUpdates "HTTP/1.1 200 OK"
+2025-07-11 23:48:31,397 | INFO | Running job "start_background_monitoring.<locals>.monitor_users (trigger: interval[0:00:10], next run at: 2025-07-11 23:48:41 IST)" (scheduled at 2025-07-11 23:48:31.381790+05:30)
+2025-07-11 23:48:31,397 | INFO | Job "start_background_monitoring.<locals>.monitor_users (trigger: interval[0:00:10], next run at: 2025-07-11 23:48:41 IST)" executed successfully
+2025-07-11 23:48:33,373 | INFO | HTTP Request: POST https://api.telegram.org/bot7960268313:AAHiZBou5-jdbrK4OEtE3pdGxPd3J914y70/getUpdates "HTTP/1.1 200 OK"
+2025-07-11 23:48:41,395 | INFO | Running job "start_background_monitoring.<locals>.monitor_users (trigger: interval[0:00:10], next run at: 2025-07-11 23:48:51 IST)" (scheduled at 2025-07-11 23:48:41.381790+05:30)
+2025-07-11 23:48:41,395 | INFO | Job "start_background_monitoring.<locals>.monitor_users (trigger: interval[0:00:10], next run at: 2025-07-11 23:48:51 IST)" executed successfully
+2025-07-11 23:48:43,620 | INFO | HTTP Request: POST https://api.telegram.org/bot7960268313:AAHiZBou5-jdbrK4OEtE3pdGxPd3J914y70/getUpdates "HTTP/1.1 200 OK"
+2025-07-11 23:48:51,386 | INFO | Running job "start_background_monitoring.<locals>.monitor_users (trigger: interval[0:00:10], next run at: 2025-07-11 23:49:01 IST)" (scheduled at 2025-07-11 23:48:51.381790+05:30)
+2025-07-11 23:48:51,386 | INFO | Job "start_background_monitoring.<locals>.monitor_users (trigger: interval[0:00:10], next run at: 2025-07-11 23:49:01 IST)" executed successfully
+2025-07-11 23:48:53,805 | INFO | HTTP Request: POST https://api.telegram.org/bot7960268313:AAHiZBou5-jdbrK4OEtE3pdGxPd3J914y70/getUpdates "HTTP/1.1 200 OK"
+2025-07-11 23:49:01,384 | INFO | Running job "start_background_monitoring.<locals>.monitor_users (trigger: interval[0:00:10], next run at: 2025-07-11 23:49:11 IST)" (scheduled at 2025-07-11 23:49:01.381790+05:30)
+2025-07-11 23:49:01,384 | INFO | Job "start_background_monitoring.<locals>.monitor_users (trigger: interval[0:00:10], next run at: 2025-07-11 23:49:11 IST)" executed successfully
+2025-07-11 23:49:04,033 | INFO | HTTP Request: POST https://api.telegram.org/bot7960268313:AAHiZBou5-jdbrK4OEtE3pdGxPd3J914y70/getUpdates "HTTP/1.1 200 OK"
+2025-07-11 23:49:11,396 | INFO | Running job "start_background_monitoring.<locals>.monitor_users (trigger: interval[0:00:10], next run at: 2025-07-11 23:49:21 IST)" (scheduled at 2025-07-11 23:49:11.381790+05:30)
+2025-07-11 23:49:11,396 | INFO | Job "start_background_monitoring.<locals>.monitor_users (trigger: interval[0:00:10], next run at: 2025-07-11 23:49:21 IST)" executed successfully
+2025-07-11 23:49:14,234 | INFO | HTTP Request: POST https://api.telegram.org/bot7960268313:AAHiZBou5-jdbrK4OEtE3pdGxPd3J914y70/getUpdates "HTTP/1.1 200 OK"
+2025-07-11 23:49:21,400 | INFO | Running job "start_background_monitoring.<locals>.monitor_users (trigger: interval[0:00:10], next run at: 2025-07-11 23:49:31 IST)" (scheduled at 2025-07-11 23:49:21.381790+05:30)
+2025-07-11 23:49:21,400 | INFO | Job "start_background_monitoring.<locals>.monitor_users (trigger: interval[0:00:10], next run at: 2025-07-11 23:49:31 IST)" executed successfully
+2025-07-11 23:49:24,471 | INFO | HTTP Request: POST https://api.telegram.org/bot7960268313:AAHiZBou5-jdbrK4OEtE3pdGxPd3J914y70/getUpdates "HTTP/1.1 200 OK"
+2025-07-11 23:49:31,388 | INFO | Running job "start_background_monitoring.<locals>.monitor_users (trigger: interval[0:00:10], next run at: 2025-07-11 23:49:41 IST)" (scheduled at 2025-07-11 23:49:31.381790+05:30)
+2025-07-11 23:49:31,389 | INFO | Job "start_background_monitoring.<locals>.monitor_users (trigger: interval[0:00:10], next run at: 2025-07-11 23:49:41 IST)" executed successfully
+2025-07-11 23:49:34,710 | INFO | HTTP Request: POST https://api.telegram.org/bot7960268313:AAHiZBou5-jdbrK4OEtE3pdGxPd3J914y70/getUpdates "HTTP/1.1 200 OK"
+2025-07-11 23:49:41,386 | INFO | Running job "start_background_monitoring.<locals>.monitor_users (trigger: interval[0:00:10], next run at: 2025-07-11 23:49:51 IST)" (scheduled at 2025-07-11 23:49:41.381790+05:30)
+2025-07-11 23:49:41,386 | INFO | Job "start_background_monitoring.<locals>.monitor_users (trigger: interval[0:00:10], next run at: 2025-07-11 23:49:51 IST)" executed successfully
+2025-07-11 23:49:44,948 | INFO | HTTP Request: POST https://api.telegram.org/bot7960268313:AAHiZBou5-jdbrK4OEtE3pdGxPd3J914y70/getUpdates "HTTP/1.1 200 OK"
+2025-07-11 23:49:51,390 | INFO | Running job "start_background_monitoring.<locals>.monitor_users (trigger: interval[0:00:10], next run at: 2025-07-11 23:50:01 IST)" (scheduled at 2025-07-11 23:49:51.381790+05:30)
+2025-07-11 23:49:51,390 | INFO | Job "start_background_monitoring.<locals>.monitor_users (trigger: interval[0:00:10], next run at: 2025-07-11 23:50:01 IST)" executed successfully
+2025-07-11 23:49:55,189 | INFO | HTTP Request: POST https://api.telegram.org/bot7960268313:AAHiZBou5-jdbrK4OEtE3pdGxPd3J914y70/getUpdates "HTTP/1.1 200 OK"
+2025-07-11 23:50:01,390 | INFO | Running job "start_background_monitoring.<locals>.monitor_users (trigger: interval[0:00:10], next run at: 2025-07-11 23:50:11 IST)" (scheduled at 2025-07-11 23:50:01.381790+05:30)
+2025-07-11 23:50:01,390 | INFO | Job "start_background_monitoring.<locals>.monitor_users (trigger: interval[0:00:10], next run at: 2025-07-11 23:50:11 IST)" executed successfully
+2025-07-11 23:50:05,430 | INFO | HTTP Request: POST https://api.telegram.org/bot7960268313:AAHiZBou5-jdbrK4OEtE3pdGxPd3J914y70/getUpdates "HTTP/1.1 200 OK"
+2025-07-11 23:50:11,385 | INFO | Running job "start_background_monitoring.<locals>.monitor_users (trigger: interval[0:00:10], next run at: 2025-07-11 23:50:21 IST)" (scheduled at 2025-07-11 23:50:11.381790+05:30)
+2025-07-11 23:50:11,385 | INFO | Job "start_background_monitoring.<locals>.monitor_users (trigger: interval[0:00:10], next run at: 2025-07-11 23:50:21 IST)" executed successfully
+2025-07-11 23:50:15,668 | INFO | HTTP Request: POST https://api.telegram.org/bot7960268313:AAHiZBou5-jdbrK4OEtE3pdGxPd3J914y70/getUpdates "HTTP/1.1 200 OK"
+2025-07-11 23:50:35,648 | INFO | Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-07-11 23:50:35,648 | INFO | Added job "start_background_monitoring.<locals>.monitor_users" to job store "default"
+2025-07-11 23:50:35,648 | INFO | Scheduler started
+2025-07-11 23:50:36,355 | INFO | HTTP Request: POST https://api.telegram.org/bot7960268313:AAHiZBou5-jdbrK4OEtE3pdGxPd3J914y70/getMe "HTTP/1.1 200 OK"
+2025-07-11 23:50:36,545 | INFO | HTTP Request: POST https://api.telegram.org/bot7960268313:AAHiZBou5-jdbrK4OEtE3pdGxPd3J914y70/deleteWebhook "HTTP/1.1 200 OK"
+2025-07-11 23:50:36,559 | INFO | Scheduler started
+2025-07-11 23:50:36,559 | INFO | Application started
+2025-07-11 23:50:45,665 | INFO | Running job "start_background_monitoring.<locals>.monitor_users (trigger: interval[0:00:10], next run at: 2025-07-11 23:50:45 IST)" (scheduled at 2025-07-11 23:50:45.648523+05:30)
+2025-07-11 23:50:45,665 | INFO | Job "start_background_monitoring.<locals>.monitor_users (trigger: interval[0:00:10], next run at: 2025-07-11 23:50:55 IST)" executed successfully
+2025-07-11 23:50:47,309 | INFO | HTTP Request: POST https://api.telegram.org/bot7960268313:AAHiZBou5-jdbrK4OEtE3pdGxPd3J914y70/getUpdates "HTTP/1.1 200 OK"
+2025-07-11 23:50:55,658 | INFO | Running job "start_background_monitoring.<locals>.monitor_users (trigger: interval[0:00:10], next run at: 2025-07-11 23:51:05 IST)" (scheduled at 2025-07-11 23:50:55.648523+05:30)
+2025-07-11 23:50:55,658 | INFO | Job "start_background_monitoring.<locals>.monitor_users (trigger: interval[0:00:10], next run at: 2025-07-11 23:51:05 IST)" executed successfully
+2025-07-11 23:50:57,542 | INFO | HTTP Request: POST https://api.telegram.org/bot7960268313:AAHiZBou5-jdbrK4OEtE3pdGxPd3J914y70/getUpdates "HTTP/1.1 200 OK"
+2025-07-11 23:50:59,700 | INFO | HTTP Request: POST https://api.telegram.org/bot7960268313:AAHiZBou5-jdbrK4OEtE3pdGxPd3J914y70/getUpdates "HTTP/1.1 200 OK"
+2025-07-11 23:51:00,523 | INFO | HTTP Request: POST https://api.telegram.org/bot7960268313:AAHiZBou5-jdbrK4OEtE3pdGxPd3J914y70/sendMessage "HTTP/1.1 200 OK"
+2025-07-11 23:51:05,662 | INFO | Running job "start_background_monitoring.<locals>.monitor_users (trigger: interval[0:00:10], next run at: 2025-07-11 23:51:15 IST)" (scheduled at 2025-07-11 23:51:05.648523+05:30)
+2025-07-11 23:51:06,152 | INFO | Job "start_background_monitoring.<locals>.monitor_users (trigger: interval[0:00:10], next run at: 2025-07-11 23:51:15 IST)" executed successfully
+2025-07-11 23:51:09,939 | INFO | HTTP Request: POST https://api.telegram.org/bot7960268313:AAHiZBou5-jdbrK4OEtE3pdGxPd3J914y70/getUpdates "HTTP/1.1 200 OK"
+2025-07-11 23:51:15,661 | INFO | Running job "start_background_monitoring.<locals>.monitor_users (trigger: interval[0:00:10], next run at: 2025-07-11 23:51:25 IST)" (scheduled at 2025-07-11 23:51:15.648523+05:30)
+2025-07-11 23:51:15,879 | INFO | Job "start_background_monitoring.<locals>.monitor_users (trigger: interval[0:00:10], next run at: 2025-07-11 23:51:25 IST)" executed successfully
+2025-07-11 23:51:20,177 | INFO | HTTP Request: POST https://api.telegram.org/bot7960268313:AAHiZBou5-jdbrK4OEtE3pdGxPd3J914y70/getUpdates "HTTP/1.1 200 OK"
+2025-07-11 23:51:23,621 | INFO | HTTP Request: POST https://api.telegram.org/bot7960268313:AAHiZBou5-jdbrK4OEtE3pdGxPd3J914y70/getUpdates "HTTP/1.1 200 OK"
+2025-07-11 23:51:24,531 | INFO | HTTP Request: POST https://api.telegram.org/bot7960268313:AAHiZBou5-jdbrK4OEtE3pdGxPd3J914y70/sendMessage "HTTP/1.1 200 OK"
+2025-07-11 23:51:25,659 | INFO | Running job "start_background_monitoring.<locals>.monitor_users (trigger: interval[0:00:10], next run at: 2025-07-11 23:51:35 IST)" (scheduled at 2025-07-11 23:51:25.648523+05:30)
+2025-07-11 23:51:25,765 | INFO | Job "start_background_monitoring.<locals>.monitor_users (trigger: interval[0:00:10], next run at: 2025-07-11 23:51:35 IST)" executed successfully
+2025-07-11 23:51:34,003 | INFO | HTTP Request: POST https://api.telegram.org/bot7960268313:AAHiZBou5-jdbrK4OEtE3pdGxPd3J914y70/getUpdates "HTTP/1.1 200 OK"
+2025-07-11 23:51:35,661 | INFO | Running job "start_background_monitoring.<locals>.monitor_users (trigger: interval[0:00:10], next run at: 2025-07-11 23:51:45 IST)" (scheduled at 2025-07-11 23:51:35.648523+05:30)
+2025-07-11 23:51:35,783 | INFO | Job "start_background_monitoring.<locals>.monitor_users (trigger: interval[0:00:10], next run at: 2025-07-11 23:51:45 IST)" executed successfully
+2025-07-11 23:51:37,261 | INFO | HTTP Request: POST https://api.telegram.org/bot7960268313:AAHiZBou5-jdbrK4OEtE3pdGxPd3J914y70/getUpdates "HTTP/1.1 200 OK"
+2025-07-11 23:51:38,715 | INFO | HTTP Request: POST https://api.telegram.org/bot7960268313:AAHiZBou5-jdbrK4OEtE3pdGxPd3J914y70/sendMessage "HTTP/1.1 200 OK"
+2025-07-11 23:51:45,666 | INFO | Running job "start_background_monitoring.<locals>.monitor_users (trigger: interval[0:00:10], next run at: 2025-07-11 23:51:55 IST)" (scheduled at 2025-07-11 23:51:45.648523+05:30)
+2025-07-11 23:51:45,985 | INFO | Job "start_background_monitoring.<locals>.monitor_users (trigger: interval[0:00:10], next run at: 2025-07-11 23:51:55 IST)" executed successfully
+2025-07-11 23:51:47,425 | INFO | HTTP Request: POST https://api.telegram.org/bot7960268313:AAHiZBou5-jdbrK4OEtE3pdGxPd3J914y70/getUpdates "HTTP/1.1 200 OK"
+2025-07-11 23:51:55,658 | INFO | Running job "start_background_monitoring.<locals>.monitor_users (trigger: interval[0:00:10], next run at: 2025-07-11 23:52:05 IST)" (scheduled at 2025-07-11 23:51:55.648523+05:30)
+2025-07-11 23:51:55,916 | INFO | Job "start_background_monitoring.<locals>.monitor_users (trigger: interval[0:00:10], next run at: 2025-07-11 23:52:05 IST)" executed successfully
+2025-07-11 23:51:57,656 | INFO | HTTP Request: POST https://api.telegram.org/bot7960268313:AAHiZBou5-jdbrK4OEtE3pdGxPd3J914y70/getUpdates "HTTP/1.1 200 OK"
+2025-07-11 23:52:05,661 | INFO | Running job "start_background_monitoring.<locals>.monitor_users (trigger: interval[0:00:10], next run at: 2025-07-11 23:52:15 IST)" (scheduled at 2025-07-11 23:52:05.648523+05:30)
+2025-07-11 23:52:05,919 | INFO | Job "start_background_monitoring.<locals>.monitor_users (trigger: interval[0:00:10], next run at: 2025-07-11 23:52:15 IST)" executed successfully
+2025-07-11 23:52:07,896 | INFO | HTTP Request: POST https://api.telegram.org/bot7960268313:AAHiZBou5-jdbrK4OEtE3pdGxPd3J914y70/getUpdates "HTTP/1.1 200 OK"
+2025-07-11 23:52:15,652 | INFO | Running job "start_background_monitoring.<locals>.monitor_users (trigger: interval[0:00:10], next run at: 2025-07-11 23:52:25 IST)" (scheduled at 2025-07-11 23:52:15.648523+05:30)
+2025-07-11 23:52:15,967 | INFO | Job "start_background_monitoring.<locals>.monitor_users (trigger: interval[0:00:10], next run at: 2025-07-11 23:52:25 IST)" executed successfully
+2025-07-11 23:52:18,047 | INFO | HTTP Request: POST https://api.telegram.org/bot7960268313:AAHiZBou5-jdbrK4OEtE3pdGxPd3J914y70/getUpdates "HTTP/1.1 200 OK"
+2025-07-11 23:52:25,659 | INFO | Running job "start_background_monitoring.<locals>.monitor_users (trigger: interval[0:00:10], next run at: 2025-07-11 23:52:35 IST)" (scheduled at 2025-07-11 23:52:25.648523+05:30)
+2025-07-11 23:52:25,801 | INFO | Job "start_background_monitoring.<locals>.monitor_users (trigger: interval[0:00:10], next run at: 2025-07-11 23:52:35 IST)" executed successfully
+2025-07-11 23:52:28,193 | INFO | HTTP Request: POST https://api.telegram.org/bot7960268313:AAHiZBou5-jdbrK4OEtE3pdGxPd3J914y70/getUpdates "HTTP/1.1 200 OK"
+2025-07-11 23:52:35,662 | INFO | Running job "start_background_monitoring.<locals>.monitor_users (trigger: interval[0:00:10], next run at: 2025-07-11 23:52:45 IST)" (scheduled at 2025-07-11 23:52:35.648523+05:30)
+2025-07-11 23:52:35,813 | INFO | Job "start_background_monitoring.<locals>.monitor_users (trigger: interval[0:00:10], next run at: 2025-07-11 23:52:45 IST)" executed successfully
+2025-07-11 23:52:38,343 | INFO | HTTP Request: POST https://api.telegram.org/bot7960268313:AAHiZBou5-jdbrK4OEtE3pdGxPd3J914y70/getUpdates "HTTP/1.1 200 OK"
+2025-07-11 23:52:45,656 | INFO | Running job "start_background_monitoring.<locals>.monitor_users (trigger: interval[0:00:10], next run at: 2025-07-11 23:52:55 IST)" (scheduled at 2025-07-11 23:52:45.648523+05:30)
+2025-07-11 23:52:45,853 | INFO | Job "start_background_monitoring.<locals>.monitor_users (trigger: interval[0:00:10], next run at: 2025-07-11 23:52:55 IST)" executed successfully
+2025-07-11 23:52:48,547 | INFO | HTTP Request: POST https://api.telegram.org/bot7960268313:AAHiZBou5-jdbrK4OEtE3pdGxPd3J914y70/getUpdates "HTTP/1.1 200 OK"
+2025-07-11 23:52:55,670 | INFO | Running job "start_background_monitoring.<locals>.monitor_users (trigger: interval[0:00:10], next run at: 2025-07-11 23:53:05 IST)" (scheduled at 2025-07-11 23:52:55.648523+05:30)
+2025-07-11 23:52:55,837 | INFO | Job "start_background_monitoring.<locals>.monitor_users (trigger: interval[0:00:10], next run at: 2025-07-11 23:53:05 IST)" executed successfully
+2025-07-11 23:52:58,892 | INFO | HTTP Request: POST https://api.telegram.org/bot7960268313:AAHiZBou5-jdbrK4OEtE3pdGxPd3J914y70/getUpdates "HTTP/1.1 200 OK"
+2025-07-11 23:53:05,662 | INFO | Running job "start_background_monitoring.<locals>.monitor_users (trigger: interval[0:00:10], next run at: 2025-07-11 23:53:15 IST)" (scheduled at 2025-07-11 23:53:05.648523+05:30)
+2025-07-11 23:53:05,781 | INFO | Job "start_background_monitoring.<locals>.monitor_users (trigger: interval[0:00:10], next run at: 2025-07-11 23:53:15 IST)" executed successfully
+2025-07-11 23:53:09,130 | INFO | HTTP Request: POST https://api.telegram.org/bot7960268313:AAHiZBou5-jdbrK4OEtE3pdGxPd3J914y70/getUpdates "HTTP/1.1 200 OK"
+2025-07-11 23:53:15,657 | INFO | Running job "start_background_monitoring.<locals>.monitor_users (trigger: interval[0:00:10], next run at: 2025-07-11 23:53:25 IST)" (scheduled at 2025-07-11 23:53:15.648523+05:30)
+2025-07-11 23:53:15,990 | INFO | Job "start_background_monitoring.<locals>.monitor_users (trigger: interval[0:00:10], next run at: 2025-07-11 23:53:25 IST)" executed successfully
+2025-07-11 23:53:19,282 | INFO | HTTP Request: POST https://api.telegram.org/bot7960268313:AAHiZBou5-jdbrK4OEtE3pdGxPd3J914y70/getUpdates "HTTP/1.1 200 OK"
+2025-07-11 23:53:25,655 | INFO | Running job "start_background_monitoring.<locals>.monitor_users (trigger: interval[0:00:10], next run at: 2025-07-11 23:53:35 IST)" (scheduled at 2025-07-11 23:53:25.648523+05:30)
+2025-07-11 23:53:25,776 | INFO | Job "start_background_monitoring.<locals>.monitor_users (trigger: interval[0:00:10], next run at: 2025-07-11 23:53:35 IST)" executed successfully
+2025-07-11 23:53:29,507 | INFO | HTTP Request: POST https://api.telegram.org/bot7960268313:AAHiZBou5-jdbrK4OEtE3pdGxPd3J914y70/getUpdates "HTTP/1.1 200 OK"
+2025-07-11 23:53:35,649 | INFO | Running job "start_background_monitoring.<locals>.monitor_users (trigger: interval[0:00:10], next run at: 2025-07-11 23:53:45 IST)" (scheduled at 2025-07-11 23:53:35.648523+05:30)
+2025-07-11 23:53:35,752 | INFO | Job "start_background_monitoring.<locals>.monitor_users (trigger: interval[0:00:10], next run at: 2025-07-11 23:53:45 IST)" executed successfully
+2025-07-11 23:53:39,745 | INFO | HTTP Request: POST https://api.telegram.org/bot7960268313:AAHiZBou5-jdbrK4OEtE3pdGxPd3J914y70/getUpdates "HTTP/1.1 200 OK"
+2025-07-11 23:53:45,664 | INFO | Running job "start_background_monitoring.<locals>.monitor_users (trigger: interval[0:00:10], next run at: 2025-07-11 23:53:55 IST)" (scheduled at 2025-07-11 23:53:45.648523+05:30)
+2025-07-11 23:53:45,787 | INFO | Job "start_background_monitoring.<locals>.monitor_users (trigger: interval[0:00:10], next run at: 2025-07-11 23:53:55 IST)" executed successfully
+2025-07-11 23:53:49,899 | INFO | HTTP Request: POST https://api.telegram.org/bot7960268313:AAHiZBou5-jdbrK4OEtE3pdGxPd3J914y70/getUpdates "HTTP/1.1 200 OK"
+2025-07-11 23:53:55,664 | INFO | Running job "start_background_monitoring.<locals>.monitor_users (trigger: interval[0:00:10], next run at: 2025-07-11 23:54:05 IST)" (scheduled at 2025-07-11 23:53:55.648523+05:30)
+2025-07-11 23:53:57,013 | INFO | Job "start_background_monitoring.<locals>.monitor_users (trigger: interval[0:00:10], next run at: 2025-07-11 23:54:05 IST)" executed successfully
+2025-07-11 23:54:00,328 | INFO | HTTP Request: POST https://api.telegram.org/bot7960268313:AAHiZBou5-jdbrK4OEtE3pdGxPd3J914y70/getUpdates "HTTP/1.1 200 OK"
+2025-07-11 23:54:05,660 | INFO | Running job "start_background_monitoring.<locals>.monitor_users (trigger: interval[0:00:10], next run at: 2025-07-11 23:54:15 IST)" (scheduled at 2025-07-11 23:54:05.648523+05:30)
+2025-07-11 23:54:05,953 | INFO | Job "start_background_monitoring.<locals>.monitor_users (trigger: interval[0:00:10], next run at: 2025-07-11 23:54:15 IST)" executed successfully
+2025-07-11 23:54:10,567 | INFO | HTTP Request: POST https://api.telegram.org/bot7960268313:AAHiZBou5-jdbrK4OEtE3pdGxPd3J914y70/getUpdates "HTTP/1.1 200 OK"
+2025-07-11 23:54:15,677 | INFO | Running job "start_background_monitoring.<locals>.monitor_users (trigger: interval[0:00:10], next run at: 2025-07-11 23:54:25 IST)" (scheduled at 2025-07-11 23:54:15.648523+05:30)
+2025-07-11 23:54:15,976 | INFO | Job "start_background_monitoring.<locals>.monitor_users (trigger: interval[0:00:10], next run at: 2025-07-11 23:54:25 IST)" executed successfully
+2025-07-11 23:54:20,716 | INFO | HTTP Request: POST https://api.telegram.org/bot7960268313:AAHiZBou5-jdbrK4OEtE3pdGxPd3J914y70/getUpdates "HTTP/1.1 200 OK"
+2025-07-11 23:54:25,655 | INFO | Running job "start_background_monitoring.<locals>.monitor_users (trigger: interval[0:00:10], next run at: 2025-07-11 23:54:35 IST)" (scheduled at 2025-07-11 23:54:25.648523+05:30)
+2025-07-11 23:54:25,755 | INFO | Job "start_background_monitoring.<locals>.monitor_users (trigger: interval[0:00:10], next run at: 2025-07-11 23:54:35 IST)" executed successfully
+2025-07-11 23:54:30,945 | INFO | HTTP Request: POST https://api.telegram.org/bot7960268313:AAHiZBou5-jdbrK4OEtE3pdGxPd3J914y70/getUpdates "HTTP/1.1 200 OK"
+2025-07-11 23:54:35,662 | INFO | Running job "start_background_monitoring.<locals>.monitor_users (trigger: interval[0:00:10], next run at: 2025-07-11 23:54:45 IST)" (scheduled at 2025-07-11 23:54:35.648523+05:30)
+2025-07-11 23:54:35,776 | INFO | Job "start_background_monitoring.<locals>.monitor_users (trigger: interval[0:00:10], next run at: 2025-07-11 23:54:45 IST)" executed successfully
+2025-07-11 23:54:41,108 | INFO | HTTP Request: POST https://api.telegram.org/bot7960268313:AAHiZBou5-jdbrK4OEtE3pdGxPd3J914y70/getUpdates "HTTP/1.1 200 OK"
+2025-07-11 23:54:45,729 | INFO | Running job "start_background_monitoring.<locals>.monitor_users (trigger: interval[0:00:10], next run at: 2025-07-11 23:54:55 IST)" (scheduled at 2025-07-11 23:54:45.648523+05:30)
+2025-07-11 23:54:45,999 | INFO | Job "start_background_monitoring.<locals>.monitor_users (trigger: interval[0:00:10], next run at: 2025-07-11 23:54:55 IST)" executed successfully
+2025-07-11 23:54:51,323 | INFO | HTTP Request: POST https://api.telegram.org/bot7960268313:AAHiZBou5-jdbrK4OEtE3pdGxPd3J914y70/getUpdates "HTTP/1.1 200 OK"
+2025-07-11 23:54:55,660 | INFO | Running job "start_background_monitoring.<locals>.monitor_users (trigger: interval[0:00:10], next run at: 2025-07-11 23:55:05 IST)" (scheduled at 2025-07-11 23:54:55.648523+05:30)
+2025-07-11 23:54:56,029 | INFO | Job "start_background_monitoring.<locals>.monitor_users (trigger: interval[0:00:10], next run at: 2025-07-11 23:55:05 IST)" executed successfully
+2025-07-11 23:55:01,477 | INFO | HTTP Request: POST https://api.telegram.org/bot7960268313:AAHiZBou5-jdbrK4OEtE3pdGxPd3J914y70/getUpdates "HTTP/1.1 200 OK"
+2025-07-11 23:55:05,659 | INFO | Running job "start_background_monitoring.<locals>.monitor_users (trigger: interval[0:00:10], next run at: 2025-07-11 23:55:15 IST)" (scheduled at 2025-07-11 23:55:05.648523+05:30)
+2025-07-11 23:55:06,027 | INFO | Job "start_background_monitoring.<locals>.monitor_users (trigger: interval[0:00:10], next run at: 2025-07-11 23:55:15 IST)" executed successfully
+2025-07-11 23:55:11,913 | INFO | HTTP Request: POST https://api.telegram.org/bot7960268313:AAHiZBou5-jdbrK4OEtE3pdGxPd3J914y70/getUpdates "HTTP/1.1 200 OK"
+2025-07-11 23:55:15,745 | INFO | Running job "start_background_monitoring.<locals>.monitor_users (trigger: interval[0:00:10], next run at: 2025-07-11 23:55:25 IST)" (scheduled at 2025-07-11 23:55:15.648523+05:30)
+2025-07-11 23:55:15,966 | INFO | Job "start_background_monitoring.<locals>.monitor_users (trigger: interval[0:00:10], next run at: 2025-07-11 23:55:25 IST)" executed successfully
+2025-07-11 23:55:22,103 | INFO | HTTP Request: POST https://api.telegram.org/bot7960268313:AAHiZBou5-jdbrK4OEtE3pdGxPd3J914y70/getUpdates "HTTP/1.1 200 OK"
+2025-07-11 23:55:25,959 | INFO | Running job "start_background_monitoring.<locals>.monitor_users (trigger: interval[0:00:10], next run at: 2025-07-11 23:55:35 IST)" (scheduled at 2025-07-11 23:55:25.648523+05:30)
+2025-07-11 23:55:26,072 | INFO | Job "start_background_monitoring.<locals>.monitor_users (trigger: interval[0:00:10], next run at: 2025-07-11 23:55:35 IST)" executed successfully
+2025-07-11 23:55:32,260 | INFO | HTTP Request: POST https://api.telegram.org/bot7960268313:AAHiZBou5-jdbrK4OEtE3pdGxPd3J914y70/getUpdates "HTTP/1.1 200 OK"
+2025-07-11 23:55:35,926 | INFO | Running job "start_background_monitoring.<locals>.monitor_users (trigger: interval[0:00:10], next run at: 2025-07-11 23:55:45 IST)" (scheduled at 2025-07-11 23:55:35.648523+05:30)
+2025-07-11 23:55:36,550 | INFO | Job "start_background_monitoring.<locals>.monitor_users (trigger: interval[0:00:10], next run at: 2025-07-11 23:55:45 IST)" executed successfully
+2025-07-11 23:55:42,776 | INFO | HTTP Request: POST https://api.telegram.org/bot7960268313:AAHiZBou5-jdbrK4OEtE3pdGxPd3J914y70/getUpdates "HTTP/1.1 200 OK"
+2025-07-11 23:55:45,880 | INFO | Running job "start_background_monitoring.<locals>.monitor_users (trigger: interval[0:00:10], next run at: 2025-07-11 23:55:55 IST)" (scheduled at 2025-07-11 23:55:45.648523+05:30)
+2025-07-11 23:55:46,469 | INFO | Job "start_background_monitoring.<locals>.monitor_users (trigger: interval[0:00:10], next run at: 2025-07-11 23:55:55 IST)" executed successfully
+2025-07-11 23:55:52,974 | INFO | HTTP Request: POST https://api.telegram.org/bot7960268313:AAHiZBou5-jdbrK4OEtE3pdGxPd3J914y70/getUpdates "HTTP/1.1 200 OK"
+2025-07-11 23:55:55,767 | INFO | Running job "start_background_monitoring.<locals>.monitor_users (trigger: interval[0:00:10], next run at: 2025-07-11 23:56:05 IST)" (scheduled at 2025-07-11 23:55:55.648523+05:30)
+2025-07-11 23:55:55,973 | INFO | Job "start_background_monitoring.<locals>.monitor_users (trigger: interval[0:00:10], next run at: 2025-07-11 23:56:05 IST)" executed successfully
+2025-07-11 23:56:03,130 | INFO | HTTP Request: POST https://api.telegram.org/bot7960268313:AAHiZBou5-jdbrK4OEtE3pdGxPd3J914y70/getUpdates "HTTP/1.1 200 OK"
+2025-07-11 23:56:05,871 | INFO | Running job "start_background_monitoring.<locals>.monitor_users (trigger: interval[0:00:10], next run at: 2025-07-11 23:56:15 IST)" (scheduled at 2025-07-11 23:56:05.648523+05:30)
+2025-07-11 23:56:06,189 | INFO | Job "start_background_monitoring.<locals>.monitor_users (trigger: interval[0:00:10], next run at: 2025-07-11 23:56:15 IST)" executed successfully
+2025-07-11 23:56:13,340 | INFO | HTTP Request: POST https://api.telegram.org/bot7960268313:AAHiZBou5-jdbrK4OEtE3pdGxPd3J914y70/getUpdates "HTTP/1.1 200 OK"
+2025-07-11 23:56:15,668 | INFO | Running job "start_background_monitoring.<locals>.monitor_users (trigger: interval[0:00:10], next run at: 2025-07-11 23:56:25 IST)" (scheduled at 2025-07-11 23:56:15.648523+05:30)
+2025-07-11 23:56:15,783 | INFO | Job "start_background_monitoring.<locals>.monitor_users (trigger: interval[0:00:10], next run at: 2025-07-11 23:56:25 IST)" executed successfully
+2025-07-11 23:56:23,578 | INFO | HTTP Request: POST https://api.telegram.org/bot7960268313:AAHiZBou5-jdbrK4OEtE3pdGxPd3J914y70/getUpdates "HTTP/1.1 200 OK"
+2025-07-11 23:56:25,660 | INFO | Running job "start_background_monitoring.<locals>.monitor_users (trigger: interval[0:00:10], next run at: 2025-07-11 23:56:35 IST)" (scheduled at 2025-07-11 23:56:25.648523+05:30)
+2025-07-11 23:56:25,850 | INFO | Job "start_background_monitoring.<locals>.monitor_users (trigger: interval[0:00:10], next run at: 2025-07-11 23:56:35 IST)" executed successfully
+2025-07-11 23:56:33,818 | INFO | HTTP Request: POST https://api.telegram.org/bot7960268313:AAHiZBou5-jdbrK4OEtE3pdGxPd3J914y70/getUpdates "HTTP/1.1 200 OK"
+2025-07-11 23:56:35,657 | INFO | Running job "start_background_monitoring.<locals>.monitor_users (trigger: interval[0:00:10], next run at: 2025-07-11 23:56:45 IST)" (scheduled at 2025-07-11 23:56:35.648523+05:30)
+2025-07-11 23:56:35,864 | INFO | Job "start_background_monitoring.<locals>.monitor_users (trigger: interval[0:00:10], next run at: 2025-07-11 23:56:45 IST)" executed successfully
+2025-07-11 23:56:44,065 | INFO | HTTP Request: POST https://api.telegram.org/bot7960268313:AAHiZBou5-jdbrK4OEtE3pdGxPd3J914y70/getUpdates "HTTP/1.1 200 OK"
+2025-07-11 23:56:45,661 | INFO | Running job "start_background_monitoring.<locals>.monitor_users (trigger: interval[0:00:10], next run at: 2025-07-11 23:56:55 IST)" (scheduled at 2025-07-11 23:56:45.648523+05:30)
+2025-07-11 23:56:45,891 | INFO | Job "start_background_monitoring.<locals>.monitor_users (trigger: interval[0:00:10], next run at: 2025-07-11 23:56:55 IST)" executed successfully
+2025-07-11 23:56:54,401 | INFO | HTTP Request: POST https://api.telegram.org/bot7960268313:AAHiZBou5-jdbrK4OEtE3pdGxPd3J914y70/getUpdates "HTTP/1.1 200 OK"
+2025-07-11 23:56:55,663 | INFO | Running job "start_background_monitoring.<locals>.monitor_users (trigger: interval[0:00:10], next run at: 2025-07-11 23:57:05 IST)" (scheduled at 2025-07-11 23:56:55.648523+05:30)
+2025-07-11 23:56:55,911 | INFO | Job "start_background_monitoring.<locals>.monitor_users (trigger: interval[0:00:10], next run at: 2025-07-11 23:57:05 IST)" executed successfully
+2025-07-11 23:57:04,653 | INFO | HTTP Request: POST https://api.telegram.org/bot7960268313:AAHiZBou5-jdbrK4OEtE3pdGxPd3J914y70/getUpdates "HTTP/1.1 200 OK"
+2025-07-11 23:57:05,652 | INFO | Running job "start_background_monitoring.<locals>.monitor_users (trigger: interval[0:00:10], next run at: 2025-07-11 23:57:15 IST)" (scheduled at 2025-07-11 23:57:05.648523+05:30)
+2025-07-11 23:57:05,854 | INFO | Job "start_background_monitoring.<locals>.monitor_users (trigger: interval[0:00:10], next run at: 2025-07-11 23:57:15 IST)" executed successfully
+2025-07-11 23:57:14,904 | INFO | HTTP Request: POST https://api.telegram.org/bot7960268313:AAHiZBou5-jdbrK4OEtE3pdGxPd3J914y70/getUpdates "HTTP/1.1 200 OK"
+2025-07-11 23:57:15,656 | INFO | Running job "start_background_monitoring.<locals>.monitor_users (trigger: interval[0:00:10], next run at: 2025-07-11 23:57:25 IST)" (scheduled at 2025-07-11 23:57:15.648523+05:30)
+2025-07-11 23:57:15,804 | INFO | Job "start_background_monitoring.<locals>.monitor_users (trigger: interval[0:00:10], next run at: 2025-07-11 23:57:25 IST)" executed successfully
+2025-07-11 23:57:25,123 | INFO | HTTP Request: POST https://api.telegram.org/bot7960268313:AAHiZBou5-jdbrK4OEtE3pdGxPd3J914y70/getUpdates "HTTP/1.1 200 OK"
+2025-07-11 23:57:25,653 | INFO | Running job "start_background_monitoring.<locals>.monitor_users (trigger: interval[0:00:10], next run at: 2025-07-11 23:57:35 IST)" (scheduled at 2025-07-11 23:57:25.648523+05:30)
+2025-07-11 23:57:25,839 | INFO | Job "start_background_monitoring.<locals>.monitor_users (trigger: interval[0:00:10], next run at: 2025-07-11 23:57:35 IST)" executed successfully
+2025-07-11 23:57:35,304 | INFO | HTTP Request: POST https://api.telegram.org/bot7960268313:AAHiZBou5-jdbrK4OEtE3pdGxPd3J914y70/getUpdates "HTTP/1.1 200 OK"
+2025-07-11 23:57:35,654 | INFO | Running job "start_background_monitoring.<locals>.monitor_users (trigger: interval[0:00:10], next run at: 2025-07-11 23:57:45 IST)" (scheduled at 2025-07-11 23:57:35.648523+05:30)
+2025-07-11 23:57:35,776 | INFO | Job "start_background_monitoring.<locals>.monitor_users (trigger: interval[0:00:10], next run at: 2025-07-11 23:57:45 IST)" executed successfully
+2025-07-11 23:57:45,573 | INFO | HTTP Request: POST https://api.telegram.org/bot7960268313:AAHiZBou5-jdbrK4OEtE3pdGxPd3J914y70/getUpdates "HTTP/1.1 200 OK"
+2025-07-11 23:57:45,658 | INFO | Running job "start_background_monitoring.<locals>.monitor_users (trigger: interval[0:00:10], next run at: 2025-07-11 23:57:55 IST)" (scheduled at 2025-07-11 23:57:45.648523+05:30)
+2025-07-11 23:57:45,972 | INFO | Job "start_background_monitoring.<locals>.monitor_users (trigger: interval[0:00:10], next run at: 2025-07-11 23:57:55 IST)" executed successfully
+2025-07-11 23:57:55,656 | INFO | Running job "start_background_monitoring.<locals>.monitor_users (trigger: interval[0:00:10], next run at: 2025-07-11 23:58:05 IST)" (scheduled at 2025-07-11 23:57:55.648523+05:30)
+2025-07-11 23:57:55,888 | INFO | HTTP Request: POST https://api.telegram.org/bot7960268313:AAHiZBou5-jdbrK4OEtE3pdGxPd3J914y70/getUpdates "HTTP/1.1 200 OK"
+2025-07-11 23:57:56,689 | INFO | Job "start_background_monitoring.<locals>.monitor_users (trigger: interval[0:00:10], next run at: 2025-07-11 23:58:05 IST)" executed successfully
+2025-07-11 23:58:05,659 | INFO | Running job "start_background_monitoring.<locals>.monitor_users (trigger: interval[0:00:10], next run at: 2025-07-11 23:58:15 IST)" (scheduled at 2025-07-11 23:58:05.648523+05:30)
+2025-07-11 23:58:05,757 | INFO | Job "start_background_monitoring.<locals>.monitor_users (trigger: interval[0:00:10], next run at: 2025-07-11 23:58:15 IST)" executed successfully
+2025-07-11 23:58:06,183 | INFO | HTTP Request: POST https://api.telegram.org/bot7960268313:AAHiZBou5-jdbrK4OEtE3pdGxPd3J914y70/getUpdates "HTTP/1.1 200 OK"
+2025-07-11 23:58:15,659 | INFO | Running job "start_background_monitoring.<locals>.monitor_users (trigger: interval[0:00:10], next run at: 2025-07-11 23:58:25 IST)" (scheduled at 2025-07-11 23:58:15.648523+05:30)
+2025-07-11 23:58:15,786 | INFO | Job "start_background_monitoring.<locals>.monitor_users (trigger: interval[0:00:10], next run at: 2025-07-11 23:58:25 IST)" executed successfully
+2025-07-11 23:58:16,449 | INFO | HTTP Request: POST https://api.telegram.org/bot7960268313:AAHiZBou5-jdbrK4OEtE3pdGxPd3J914y70/getUpdates "HTTP/1.1 200 OK"
+2025-07-11 23:58:25,659 | INFO | Running job "start_background_monitoring.<locals>.monitor_users (trigger: interval[0:00:10], next run at: 2025-07-11 23:58:35 IST)" (scheduled at 2025-07-11 23:58:25.648523+05:30)
+2025-07-11 23:58:25,867 | INFO | Job "start_background_monitoring.<locals>.monitor_users (trigger: interval[0:00:10], next run at: 2025-07-11 23:58:35 IST)" executed successfully
+2025-07-11 23:58:26,656 | INFO | HTTP Request: POST https://api.telegram.org/bot7960268313:AAHiZBou5-jdbrK4OEtE3pdGxPd3J914y70/getUpdates "HTTP/1.1 200 OK"
+2025-07-11 23:58:35,657 | INFO | Running job "start_background_monitoring.<locals>.monitor_users (trigger: interval[0:00:10], next run at: 2025-07-11 23:58:45 IST)" (scheduled at 2025-07-11 23:58:35.648523+05:30)
+2025-07-11 23:58:35,841 | INFO | Job "start_background_monitoring.<locals>.monitor_users (trigger: interval[0:00:10], next run at: 2025-07-11 23:58:45 IST)" executed successfully
+2025-07-11 23:58:36,835 | INFO | HTTP Request: POST https://api.telegram.org/bot7960268313:AAHiZBou5-jdbrK4OEtE3pdGxPd3J914y70/getUpdates "HTTP/1.1 200 OK"
+2025-07-11 23:58:45,659 | INFO | Running job "start_background_monitoring.<locals>.monitor_users (trigger: interval[0:00:10], next run at: 2025-07-11 23:58:55 IST)" (scheduled at 2025-07-11 23:58:45.648523+05:30)
+2025-07-11 23:58:46,014 | INFO | Job "start_background_monitoring.<locals>.monitor_users (trigger: interval[0:00:10], next run at: 2025-07-11 23:58:55 IST)" executed successfully
+2025-07-11 23:58:46,993 | INFO | HTTP Request: POST https://api.telegram.org/bot7960268313:AAHiZBou5-jdbrK4OEtE3pdGxPd3J914y70/getUpdates "HTTP/1.1 200 OK"
+2025-07-11 23:58:55,664 | INFO | Running job "start_background_monitoring.<locals>.monitor_users (trigger: interval[0:00:10], next run at: 2025-07-11 23:59:05 IST)" (scheduled at 2025-07-11 23:58:55.648523+05:30)
+2025-07-11 23:58:55,951 | INFO | Job "start_background_monitoring.<locals>.monitor_users (trigger: interval[0:00:10], next run at: 2025-07-11 23:59:05 IST)" executed successfully
+2025-07-11 23:58:57,177 | INFO | HTTP Request: POST https://api.telegram.org/bot7960268313:AAHiZBou5-jdbrK4OEtE3pdGxPd3J914y70/getUpdates "HTTP/1.1 200 OK"
+2025-07-11 23:59:05,665 | INFO | Running job "start_background_monitoring.<locals>.monitor_users (trigger: interval[0:00:10], next run at: 2025-07-11 23:59:15 IST)" (scheduled at 2025-07-11 23:59:05.648523+05:30)
+2025-07-11 23:59:05,981 | INFO | Job "start_background_monitoring.<locals>.monitor_users (trigger: interval[0:00:10], next run at: 2025-07-11 23:59:15 IST)" executed successfully
+2025-07-11 23:59:07,415 | INFO | HTTP Request: POST https://api.telegram.org/bot7960268313:AAHiZBou5-jdbrK4OEtE3pdGxPd3J914y70/getUpdates "HTTP/1.1 200 OK"
+2025-07-11 23:59:15,653 | INFO | Running job "start_background_monitoring.<locals>.monitor_users (trigger: interval[0:00:10], next run at: 2025-07-11 23:59:25 IST)" (scheduled at 2025-07-11 23:59:15.648523+05:30)
+2025-07-11 23:59:15,838 | INFO | Job "start_background_monitoring.<locals>.monitor_users (trigger: interval[0:00:10], next run at: 2025-07-11 23:59:25 IST)" executed successfully
+2025-07-11 23:59:17,587 | INFO | HTTP Request: POST https://api.telegram.org/bot7960268313:AAHiZBou5-jdbrK4OEtE3pdGxPd3J914y70/getUpdates "HTTP/1.1 200 OK"
+2025-07-11 23:59:25,662 | INFO | Running job "start_background_monitoring.<locals>.monitor_users (trigger: interval[0:00:10], next run at: 2025-07-11 23:59:35 IST)" (scheduled at 2025-07-11 23:59:25.648523+05:30)
+2025-07-11 23:59:25,950 | INFO | Job "start_background_monitoring.<locals>.monitor_users (trigger: interval[0:00:10], next run at: 2025-07-11 23:59:35 IST)" executed successfully
+2025-07-11 23:59:27,735 | INFO | HTTP Request: POST https://api.telegram.org/bot7960268313:AAHiZBou5-jdbrK4OEtE3pdGxPd3J914y70/getUpdates "HTTP/1.1 200 OK"
+2025-07-11 23:59:35,660 | INFO | Running job "start_background_monitoring.<locals>.monitor_users (trigger: interval[0:00:10], next run at: 2025-07-11 23:59:45 IST)" (scheduled at 2025-07-11 23:59:35.648523+05:30)
+2025-07-11 23:59:36,191 | INFO | Job "start_background_monitoring.<locals>.monitor_users (trigger: interval[0:00:10], next run at: 2025-07-11 23:59:45 IST)" executed successfully
+2025-07-11 23:59:37,899 | INFO | HTTP Request: POST https://api.telegram.org/bot7960268313:AAHiZBou5-jdbrK4OEtE3pdGxPd3J914y70/getUpdates "HTTP/1.1 200 OK"
+2025-07-11 23:59:45,656 | INFO | Running job "start_background_monitoring.<locals>.monitor_users (trigger: interval[0:00:10], next run at: 2025-07-11 23:59:55 IST)" (scheduled at 2025-07-11 23:59:45.648523+05:30)
+2025-07-11 23:59:45,855 | INFO | Job "start_background_monitoring.<locals>.monitor_users (trigger: interval[0:00:10], next run at: 2025-07-11 23:59:55 IST)" executed successfully
+2025-07-11 23:59:48,168 | INFO | HTTP Request: POST https://api.telegram.org/bot7960268313:AAHiZBou5-jdbrK4OEtE3pdGxPd3J914y70/getUpdates "HTTP/1.1 200 OK"
+2025-07-11 23:59:55,649 | INFO | Running job "start_background_monitoring.<locals>.monitor_users (trigger: interval[0:00:10], next run at: 2025-07-12 00:00:05 IST)" (scheduled at 2025-07-11 23:59:55.648523+05:30)
+2025-07-11 23:59:55,951 | INFO | Job "start_background_monitoring.<locals>.monitor_users (trigger: interval[0:00:10], next run at: 2025-07-12 00:00:05 IST)" executed successfully
+2025-07-11 23:59:58,334 | INFO | HTTP Request: POST https://api.telegram.org/bot7960268313:AAHiZBou5-jdbrK4OEtE3pdGxPd3J914y70/getUpdates "HTTP/1.1 200 OK"
+2025-07-12 00:00:05,657 | INFO | Running job "start_background_monitoring.<locals>.monitor_users (trigger: interval[0:00:10], next run at: 2025-07-12 00:00:15 IST)" (scheduled at 2025-07-12 00:00:05.648523+05:30)
+2025-07-12 00:00:06,114 | INFO | Job "start_background_monitoring.<locals>.monitor_users (trigger: interval[0:00:10], next run at: 2025-07-12 00:00:15 IST)" executed successfully
+2025-07-12 00:00:08,546 | INFO | HTTP Request: POST https://api.telegram.org/bot7960268313:AAHiZBou5-jdbrK4OEtE3pdGxPd3J914y70/getUpdates "HTTP/1.1 200 OK"
+2025-07-12 00:00:15,655 | INFO | Running job "start_background_monitoring.<locals>.monitor_users (trigger: interval[0:00:10], next run at: 2025-07-12 00:00:25 IST)" (scheduled at 2025-07-12 00:00:15.648523+05:30)
+2025-07-12 00:00:15,905 | INFO | Job "start_background_monitoring.<locals>.monitor_users (trigger: interval[0:00:10], next run at: 2025-07-12 00:00:25 IST)" executed successfully
+2025-07-12 00:00:18,699 | INFO | HTTP Request: POST https://api.telegram.org/bot7960268313:AAHiZBou5-jdbrK4OEtE3pdGxPd3J914y70/getUpdates "HTTP/1.1 200 OK"
+2025-07-12 00:00:25,655 | INFO | Running job "start_background_monitoring.<locals>.monitor_users (trigger: interval[0:00:10], next run at: 2025-07-12 00:00:35 IST)" (scheduled at 2025-07-12 00:00:25.648523+05:30)
+2025-07-12 00:00:25,792 | INFO | Job "start_background_monitoring.<locals>.monitor_users (trigger: interval[0:00:10], next run at: 2025-07-12 00:00:35 IST)" executed successfully
+2025-07-12 00:00:28,887 | INFO | HTTP Request: POST https://api.telegram.org/bot7960268313:AAHiZBou5-jdbrK4OEtE3pdGxPd3J914y70/getUpdates "HTTP/1.1 200 OK"
+2025-07-12 00:00:35,655 | INFO | Running job "start_background_monitoring.<locals>.monitor_users (trigger: interval[0:00:10], next run at: 2025-07-12 00:00:45 IST)" (scheduled at 2025-07-12 00:00:35.648523+05:30)
+2025-07-12 00:00:35,759 | INFO | Job "start_background_monitoring.<locals>.monitor_users (trigger: interval[0:00:10], next run at: 2025-07-12 00:00:45 IST)" executed successfully
+2025-07-12 00:00:39,131 | INFO | HTTP Request: POST https://api.telegram.org/bot7960268313:AAHiZBou5-jdbrK4OEtE3pdGxPd3J914y70/getUpdates "HTTP/1.1 200 OK"
+2025-07-12 00:00:45,652 | INFO | Running job "start_background_monitoring.<locals>.monitor_users (trigger: interval[0:00:10], next run at: 2025-07-12 00:00:55 IST)" (scheduled at 2025-07-12 00:00:45.648523+05:30)
+2025-07-12 00:00:45,903 | INFO | Job "start_background_monitoring.<locals>.monitor_users (trigger: interval[0:00:10], next run at: 2025-07-12 00:00:55 IST)" executed successfully
+2025-07-12 00:00:49,309 | INFO | HTTP Request: POST https://api.telegram.org/bot7960268313:AAHiZBou5-jdbrK4OEtE3pdGxPd3J914y70/getUpdates "HTTP/1.1 200 OK"
+2025-07-12 00:00:55,650 | INFO | Running job "start_background_monitoring.<locals>.monitor_users (trigger: interval[0:00:10], next run at: 2025-07-12 00:01:05 IST)" (scheduled at 2025-07-12 00:00:55.648523+05:30)
+2025-07-12 00:00:55,853 | INFO | Job "start_background_monitoring.<locals>.monitor_users (trigger: interval[0:00:10], next run at: 2025-07-12 00:01:05 IST)" executed successfully
+2025-07-12 00:00:59,542 | INFO | HTTP Request: POST https://api.telegram.org/bot7960268313:AAHiZBou5-jdbrK4OEtE3pdGxPd3J914y70/getUpdates "HTTP/1.1 200 OK"
+2025-07-12 00:01:05,661 | INFO | Running job "start_background_monitoring.<locals>.monitor_users (trigger: interval[0:00:10], next run at: 2025-07-12 00:01:15 IST)" (scheduled at 2025-07-12 00:01:05.648523+05:30)
+2025-07-12 00:01:05,977 | INFO | Job "start_background_monitoring.<locals>.monitor_users (trigger: interval[0:00:10], next run at: 2025-07-12 00:01:15 IST)" executed successfully
+2025-07-12 00:01:09,781 | INFO | HTTP Request: POST https://api.telegram.org/bot7960268313:AAHiZBou5-jdbrK4OEtE3pdGxPd3J914y70/getUpdates "HTTP/1.1 200 OK"
+2025-07-12 00:01:15,664 | INFO | Running job "start_background_monitoring.<locals>.monitor_users (trigger: interval[0:00:10], next run at: 2025-07-12 00:01:25 IST)" (scheduled at 2025-07-12 00:01:15.648523+05:30)
+2025-07-12 00:01:15,822 | INFO | Job "start_background_monitoring.<locals>.monitor_users (trigger: interval[0:00:10], next run at: 2025-07-12 00:01:25 IST)" executed successfully
+2025-07-12 00:01:20,018 | INFO | HTTP Request: POST https://api.telegram.org/bot7960268313:AAHiZBou5-jdbrK4OEtE3pdGxPd3J914y70/getUpdates "HTTP/1.1 200 OK"
+2025-07-12 00:01:25,664 | INFO | Running job "start_background_monitoring.<locals>.monitor_users (trigger: interval[0:00:10], next run at: 2025-07-12 00:01:35 IST)" (scheduled at 2025-07-12 00:01:25.648523+05:30)
+2025-07-12 00:01:25,930 | INFO | Job "start_background_monitoring.<locals>.monitor_users (trigger: interval[0:00:10], next run at: 2025-07-12 00:01:35 IST)" executed successfully
+2025-07-12 00:01:30,252 | INFO | HTTP Request: POST https://api.telegram.org/bot7960268313:AAHiZBou5-jdbrK4OEtE3pdGxPd3J914y70/getUpdates "HTTP/1.1 200 OK"
+2025-07-12 00:01:35,653 | INFO | Running job "start_background_monitoring.<locals>.monitor_users (trigger: interval[0:00:10], next run at: 2025-07-12 00:01:45 IST)" (scheduled at 2025-07-12 00:01:35.648523+05:30)
+2025-07-12 00:01:35,909 | INFO | Job "start_background_monitoring.<locals>.monitor_users (trigger: interval[0:00:10], next run at: 2025-07-12 00:01:45 IST)" executed successfully
+2025-07-12 00:01:40,733 | INFO | HTTP Request: POST https://api.telegram.org/bot7960268313:AAHiZBou5-jdbrK4OEtE3pdGxPd3J914y70/getUpdates "HTTP/1.1 200 OK"
+2025-07-12 00:01:45,651 | INFO | Running job "start_background_monitoring.<locals>.monitor_users (trigger: interval[0:00:10], next run at: 2025-07-12 00:01:55 IST)" (scheduled at 2025-07-12 00:01:45.648523+05:30)
+2025-07-12 00:01:45,789 | INFO | Job "start_background_monitoring.<locals>.monitor_users (trigger: interval[0:00:10], next run at: 2025-07-12 00:01:55 IST)" executed successfully
+2025-07-12 00:01:50,945 | INFO | HTTP Request: POST https://api.telegram.org/bot7960268313:AAHiZBou5-jdbrK4OEtE3pdGxPd3J914y70/getUpdates "HTTP/1.1 200 OK"
+2025-07-12 00:01:55,651 | INFO | Running job "start_background_monitoring.<locals>.monitor_users (trigger: interval[0:00:10], next run at: 2025-07-12 00:02:05 IST)" (scheduled at 2025-07-12 00:01:55.648523+05:30)
+2025-07-12 00:01:55,857 | INFO | Job "start_background_monitoring.<locals>.monitor_users (trigger: interval[0:00:10], next run at: 2025-07-12 00:02:05 IST)" executed successfully
+2025-07-12 00:02:01,106 | INFO | HTTP Request: POST https://api.telegram.org/bot7960268313:AAHiZBou5-jdbrK4OEtE3pdGxPd3J914y70/getUpdates "HTTP/1.1 200 OK"
+2025-07-12 00:02:05,664 | INFO | Running job "start_background_monitoring.<locals>.monitor_users (trigger: interval[0:00:10], next run at: 2025-07-12 00:02:15 IST)" (scheduled at 2025-07-12 00:02:05.648523+05:30)
+2025-07-12 00:02:05,853 | INFO | Job "start_background_monitoring.<locals>.monitor_users (trigger: interval[0:00:10], next run at: 2025-07-12 00:02:15 IST)" executed successfully
+2025-07-12 00:02:11,250 | INFO | HTTP Request: POST https://api.telegram.org/bot7960268313:AAHiZBou5-jdbrK4OEtE3pdGxPd3J914y70/getUpdates "HTTP/1.1 200 OK"
+2025-07-12 00:02:15,660 | INFO | Running job "start_background_monitoring.<locals>.monitor_users (trigger: interval[0:00:10], next run at: 2025-07-12 00:02:25 IST)" (scheduled at 2025-07-12 00:02:15.648523+05:30)
+2025-07-12 00:02:16,135 | INFO | Job "start_background_monitoring.<locals>.monitor_users (trigger: interval[0:00:10], next run at: 2025-07-12 00:02:25 IST)" executed successfully
+2025-07-12 00:02:21,451 | INFO | HTTP Request: POST https://api.telegram.org/bot7960268313:AAHiZBou5-jdbrK4OEtE3pdGxPd3J914y70/getUpdates "HTTP/1.1 200 OK"
+2025-07-12 00:02:25,656 | INFO | Running job "start_background_monitoring.<locals>.monitor_users (trigger: interval[0:00:10], next run at: 2025-07-12 00:02:35 IST)" (scheduled at 2025-07-12 00:02:25.648523+05:30)
+2025-07-12 00:02:25,962 | INFO | Job "start_background_monitoring.<locals>.monitor_users (trigger: interval[0:00:10], next run at: 2025-07-12 00:02:35 IST)" executed successfully
+2025-07-12 00:02:31,603 | INFO | HTTP Request: POST https://api.telegram.org/bot7960268313:AAHiZBou5-jdbrK4OEtE3pdGxPd3J914y70/getUpdates "HTTP/1.1 200 OK"
+2025-07-12 00:02:35,649 | INFO | Running job "start_background_monitoring.<locals>.monitor_users (trigger: interval[0:00:10], next run at: 2025-07-12 00:02:45 IST)" (scheduled at 2025-07-12 00:02:35.648523+05:30)
+2025-07-12 00:02:35,755 | INFO | Job "start_background_monitoring.<locals>.monitor_users (trigger: interval[0:00:10], next run at: 2025-07-12 00:02:45 IST)" executed successfully
+2025-07-12 00:02:41,833 | INFO | HTTP Request: POST https://api.telegram.org/bot7960268313:AAHiZBou5-jdbrK4OEtE3pdGxPd3J914y70/getUpdates "HTTP/1.1 200 OK"
+2025-07-12 00:02:45,658 | INFO | Running job "start_background_monitoring.<locals>.monitor_users (trigger: interval[0:00:10], next run at: 2025-07-12 00:02:55 IST)" (scheduled at 2025-07-12 00:02:45.648523+05:30)
+2025-07-12 00:02:45,792 | INFO | Job "start_background_monitoring.<locals>.monitor_users (trigger: interval[0:00:10], next run at: 2025-07-12 00:02:55 IST)" executed successfully
+2025-07-12 00:02:52,075 | INFO | HTTP Request: POST https://api.telegram.org/bot7960268313:AAHiZBou5-jdbrK4OEtE3pdGxPd3J914y70/getUpdates "HTTP/1.1 200 OK"
+2025-07-12 00:02:55,660 | INFO | Running job "start_background_monitoring.<locals>.monitor_users (trigger: interval[0:00:10], next run at: 2025-07-12 00:03:05 IST)" (scheduled at 2025-07-12 00:02:55.648523+05:30)
+2025-07-12 00:02:55,790 | INFO | Job "start_background_monitoring.<locals>.monitor_users (trigger: interval[0:00:10], next run at: 2025-07-12 00:03:05 IST)" executed successfully
+2025-07-12 00:03:02,287 | INFO | HTTP Request: POST https://api.telegram.org/bot7960268313:AAHiZBou5-jdbrK4OEtE3pdGxPd3J914y70/getUpdates "HTTP/1.1 200 OK"
+2025-07-12 00:03:05,659 | INFO | Running job "start_background_monitoring.<locals>.monitor_users (trigger: interval[0:00:10], next run at: 2025-07-12 00:03:15 IST)" (scheduled at 2025-07-12 00:03:05.648523+05:30)
+2025-07-12 00:03:06,006 | INFO | Job "start_background_monitoring.<locals>.monitor_users (trigger: interval[0:00:10], next run at: 2025-07-12 00:03:15 IST)" executed successfully
+2025-07-12 00:03:12,450 | INFO | HTTP Request: POST https://api.telegram.org/bot7960268313:AAHiZBou5-jdbrK4OEtE3pdGxPd3J914y70/getUpdates "HTTP/1.1 200 OK"
+2025-07-12 00:03:15,653 | INFO | Running job "start_background_monitoring.<locals>.monitor_users (trigger: interval[0:00:10], next run at: 2025-07-12 00:03:25 IST)" (scheduled at 2025-07-12 00:03:15.648523+05:30)
+2025-07-12 00:03:16,033 | INFO | Job "start_background_monitoring.<locals>.monitor_users (trigger: interval[0:00:10], next run at: 2025-07-12 00:03:25 IST)" executed successfully
+2025-07-12 00:03:23,202 | INFO | HTTP Request: POST https://api.telegram.org/bot7960268313:AAHiZBou5-jdbrK4OEtE3pdGxPd3J914y70/getUpdates "HTTP/1.1 200 OK"
+2025-07-12 00:03:25,660 | INFO | Running job "start_background_monitoring.<locals>.monitor_users (trigger: interval[0:00:10], next run at: 2025-07-12 00:03:35 IST)" (scheduled at 2025-07-12 00:03:25.648523+05:30)
+2025-07-12 00:03:25,869 | INFO | Job "start_background_monitoring.<locals>.monitor_users (trigger: interval[0:00:10], next run at: 2025-07-12 00:03:35 IST)" executed successfully
+2025-07-12 00:03:33,361 | INFO | HTTP Request: POST https://api.telegram.org/bot7960268313:AAHiZBou5-jdbrK4OEtE3pdGxPd3J914y70/getUpdates "HTTP/1.1 200 OK"
+2025-07-12 00:03:35,663 | INFO | Running job "start_background_monitoring.<locals>.monitor_users (trigger: interval[0:00:10], next run at: 2025-07-12 00:03:45 IST)" (scheduled at 2025-07-12 00:03:35.648523+05:30)
+2025-07-12 00:03:36,003 | INFO | Job "start_background_monitoring.<locals>.monitor_users (trigger: interval[0:00:10], next run at: 2025-07-12 00:03:45 IST)" executed successfully
+2025-07-12 00:03:43,509 | INFO | HTTP Request: POST https://api.telegram.org/bot7960268313:AAHiZBou5-jdbrK4OEtE3pdGxPd3J914y70/getUpdates "HTTP/1.1 200 OK"
+2025-07-12 00:03:45,659 | INFO | Running job "start_background_monitoring.<locals>.monitor_users (trigger: interval[0:00:10], next run at: 2025-07-12 00:03:55 IST)" (scheduled at 2025-07-12 00:03:45.648523+05:30)
+2025-07-12 00:03:46,041 | INFO | Job "start_background_monitoring.<locals>.monitor_users (trigger: interval[0:00:10], next run at: 2025-07-12 00:03:55 IST)" executed successfully
+2025-07-12 00:03:53,717 | INFO | HTTP Request: POST https://api.telegram.org/bot7960268313:AAHiZBou5-jdbrK4OEtE3pdGxPd3J914y70/getUpdates "HTTP/1.1 200 OK"
+2025-07-12 00:03:55,649 | INFO | Running job "start_background_monitoring.<locals>.monitor_users (trigger: interval[0:00:10], next run at: 2025-07-12 00:04:05 IST)" (scheduled at 2025-07-12 00:03:55.648523+05:30)
+2025-07-12 00:03:55,971 | INFO | Job "start_background_monitoring.<locals>.monitor_users (trigger: interval[0:00:10], next run at: 2025-07-12 00:04:05 IST)" executed successfully
+2025-07-12 00:04:03,964 | INFO | HTTP Request: POST https://api.telegram.org/bot7960268313:AAHiZBou5-jdbrK4OEtE3pdGxPd3J914y70/getUpdates "HTTP/1.1 200 OK"
+2025-07-12 00:04:05,654 | INFO | Running job "start_background_monitoring.<locals>.monitor_users (trigger: interval[0:00:10], next run at: 2025-07-12 00:04:15 IST)" (scheduled at 2025-07-12 00:04:05.648523+05:30)
+2025-07-12 00:04:05,870 | INFO | Job "start_background_monitoring.<locals>.monitor_users (trigger: interval[0:00:10], next run at: 2025-07-12 00:04:15 IST)" executed successfully
+2025-07-12 00:04:14,717 | INFO | HTTP Request: POST https://api.telegram.org/bot7960268313:AAHiZBou5-jdbrK4OEtE3pdGxPd3J914y70/getUpdates "HTTP/1.1 200 OK"
+2025-07-12 00:04:15,663 | INFO | Running job "start_background_monitoring.<locals>.monitor_users (trigger: interval[0:00:10], next run at: 2025-07-12 00:04:25 IST)" (scheduled at 2025-07-12 00:04:15.648523+05:30)
+2025-07-12 00:04:16,242 | INFO | Job "start_background_monitoring.<locals>.monitor_users (trigger: interval[0:00:10], next run at: 2025-07-12 00:04:25 IST)" executed successfully
+2025-07-12 00:04:24,947 | INFO | HTTP Request: POST https://api.telegram.org/bot7960268313:AAHiZBou5-jdbrK4OEtE3pdGxPd3J914y70/getUpdates "HTTP/1.1 200 OK"
+2025-07-12 00:04:25,650 | INFO | Running job "start_background_monitoring.<locals>.monitor_users (trigger: interval[0:00:10], next run at: 2025-07-12 00:04:35 IST)" (scheduled at 2025-07-12 00:04:25.648523+05:30)
+2025-07-12 00:04:25,860 | INFO | Job "start_background_monitoring.<locals>.monitor_users (trigger: interval[0:00:10], next run at: 2025-07-12 00:04:35 IST)" executed successfully
+2025-07-12 00:04:35,100 | INFO | HTTP Request: POST https://api.telegram.org/bot7960268313:AAHiZBou5-jdbrK4OEtE3pdGxPd3J914y70/getUpdates "HTTP/1.1 200 OK"
+2025-07-12 00:04:35,663 | INFO | Running job "start_background_monitoring.<locals>.monitor_users (trigger: interval[0:00:10], next run at: 2025-07-12 00:04:45 IST)" (scheduled at 2025-07-12 00:04:35.648523+05:30)
+2025-07-12 00:04:36,005 | INFO | Job "start_background_monitoring.<locals>.monitor_users (trigger: interval[0:00:10], next run at: 2025-07-12 00:04:45 IST)" executed successfully
+2025-07-12 00:04:45,325 | INFO | HTTP Request: POST https://api.telegram.org/bot7960268313:AAHiZBou5-jdbrK4OEtE3pdGxPd3J914y70/getUpdates "HTTP/1.1 200 OK"
+2025-07-12 00:04:45,663 | INFO | Running job "start_background_monitoring.<locals>.monitor_users (trigger: interval[0:00:10], next run at: 2025-07-12 00:04:55 IST)" (scheduled at 2025-07-12 00:04:45.648523+05:30)
+2025-07-12 00:04:45,765 | INFO | Job "start_background_monitoring.<locals>.monitor_users (trigger: interval[0:00:10], next run at: 2025-07-12 00:04:55 IST)" executed successfully
+2025-07-12 00:04:55,562 | INFO | HTTP Request: POST https://api.telegram.org/bot7960268313:AAHiZBou5-jdbrK4OEtE3pdGxPd3J914y70/getUpdates "HTTP/1.1 200 OK"
+2025-07-12 00:04:55,657 | INFO | Running job "start_background_monitoring.<locals>.monitor_users (trigger: interval[0:00:10], next run at: 2025-07-12 00:05:05 IST)" (scheduled at 2025-07-12 00:04:55.648523+05:30)
+2025-07-12 00:04:55,972 | INFO | Job "start_background_monitoring.<locals>.monitor_users (trigger: interval[0:00:10], next run at: 2025-07-12 00:05:05 IST)" executed successfully
+2025-07-12 00:05:05,659 | INFO | Running job "start_background_monitoring.<locals>.monitor_users (trigger: interval[0:00:10], next run at: 2025-07-12 00:05:15 IST)" (scheduled at 2025-07-12 00:05:05.648523+05:30)
+2025-07-12 00:05:05,812 | INFO | HTTP Request: POST https://api.telegram.org/bot7960268313:AAHiZBou5-jdbrK4OEtE3pdGxPd3J914y70/getUpdates "HTTP/1.1 200 OK"
+2025-07-12 00:05:06,212 | INFO | Job "start_background_monitoring.<locals>.monitor_users (trigger: interval[0:00:10], next run at: 2025-07-12 00:05:15 IST)" executed successfully
+2025-07-12 00:05:15,660 | INFO | Running job "start_background_monitoring.<locals>.monitor_users (trigger: interval[0:00:10], next run at: 2025-07-12 00:05:25 IST)" (scheduled at 2025-07-12 00:05:15.648523+05:30)
+2025-07-12 00:05:15,939 | INFO | Job "start_background_monitoring.<locals>.monitor_users (trigger: interval[0:00:10], next run at: 2025-07-12 00:05:25 IST)" executed successfully
+2025-07-12 00:05:16,043 | INFO | HTTP Request: POST https://api.telegram.org/bot7960268313:AAHiZBou5-jdbrK4OEtE3pdGxPd3J914y70/getUpdates "HTTP/1.1 200 OK"
+2025-07-12 00:05:25,652 | INFO | Running job "start_background_monitoring.<locals>.monitor_users (trigger: interval[0:00:10], next run at: 2025-07-12 00:05:35 IST)" (scheduled at 2025-07-12 00:05:25.648523+05:30)
+2025-07-12 00:05:25,926 | INFO | Job "start_background_monitoring.<locals>.monitor_users (trigger: interval[0:00:10], next run at: 2025-07-12 00:05:35 IST)" executed successfully
+2025-07-12 00:05:26,282 | INFO | HTTP Request: POST https://api.telegram.org/bot7960268313:AAHiZBou5-jdbrK4OEtE3pdGxPd3J914y70/getUpdates "HTTP/1.1 200 OK"
+2025-07-12 00:05:35,654 | INFO | Running job "start_background_monitoring.<locals>.monitor_users (trigger: interval[0:00:10], next run at: 2025-07-12 00:05:45 IST)" (scheduled at 2025-07-12 00:05:35.648523+05:30)
+2025-07-12 00:05:35,762 | INFO | Job "start_background_monitoring.<locals>.monitor_users (trigger: interval[0:00:10], next run at: 2025-07-12 00:05:45 IST)" executed successfully
+2025-07-12 00:05:36,525 | INFO | HTTP Request: POST https://api.telegram.org/bot7960268313:AAHiZBou5-jdbrK4OEtE3pdGxPd3J914y70/getUpdates "HTTP/1.1 200 OK"
+2025-07-12 00:05:45,660 | INFO | Running job "start_background_monitoring.<locals>.monitor_users (trigger: interval[0:00:10], next run at: 2025-07-12 00:05:55 IST)" (scheduled at 2025-07-12 00:05:45.648523+05:30)
+2025-07-12 00:05:45,873 | INFO | Job "start_background_monitoring.<locals>.monitor_users (trigger: interval[0:00:10], next run at: 2025-07-12 00:05:55 IST)" executed successfully
+2025-07-12 00:05:46,706 | INFO | HTTP Request: POST https://api.telegram.org/bot7960268313:AAHiZBou5-jdbrK4OEtE3pdGxPd3J914y70/getUpdates "HTTP/1.1 200 OK"
+2025-07-12 00:05:55,660 | INFO | Running job "start_background_monitoring.<locals>.monitor_users (trigger: interval[0:00:10], next run at: 2025-07-12 00:06:05 IST)" (scheduled at 2025-07-12 00:05:55.648523+05:30)
+2025-07-12 00:05:55,872 | INFO | Job "start_background_monitoring.<locals>.monitor_users (trigger: interval[0:00:10], next run at: 2025-07-12 00:06:05 IST)" executed successfully
+2025-07-12 00:05:56,900 | INFO | HTTP Request: POST https://api.telegram.org/bot7960268313:AAHiZBou5-jdbrK4OEtE3pdGxPd3J914y70/getUpdates "HTTP/1.1 200 OK"
+2025-07-12 00:06:05,655 | INFO | Running job "start_background_monitoring.<locals>.monitor_users (trigger: interval[0:00:10], next run at: 2025-07-12 00:06:15 IST)" (scheduled at 2025-07-12 00:06:05.648523+05:30)
+2025-07-12 00:06:06,228 | INFO | Job "start_background_monitoring.<locals>.monitor_users (trigger: interval[0:00:10], next run at: 2025-07-12 00:06:15 IST)" executed successfully
+2025-07-12 00:06:07,056 | INFO | HTTP Request: POST https://api.telegram.org/bot7960268313:AAHiZBou5-jdbrK4OEtE3pdGxPd3J914y70/getUpdates "HTTP/1.1 200 OK"
+2025-07-12 00:06:15,661 | INFO | Running job "start_background_monitoring.<locals>.monitor_users (trigger: interval[0:00:10], next run at: 2025-07-12 00:06:25 IST)" (scheduled at 2025-07-12 00:06:15.648523+05:30)
+2025-07-12 00:06:15,866 | INFO | Job "start_background_monitoring.<locals>.monitor_users (trigger: interval[0:00:10], next run at: 2025-07-12 00:06:25 IST)" executed successfully
+2025-07-12 00:06:17,268 | INFO | HTTP Request: POST https://api.telegram.org/bot7960268313:AAHiZBou5-jdbrK4OEtE3pdGxPd3J914y70/getUpdates "HTTP/1.1 200 OK"
+2025-07-12 00:06:25,656 | INFO | Running job "start_background_monitoring.<locals>.monitor_users (trigger: interval[0:00:10], next run at: 2025-07-12 00:06:35 IST)" (scheduled at 2025-07-12 00:06:25.648523+05:30)
+2025-07-12 00:06:25,978 | INFO | Job "start_background_monitoring.<locals>.monitor_users (trigger: interval[0:00:10], next run at: 2025-07-12 00:06:35 IST)" executed successfully
+2025-07-12 00:06:27,414 | INFO | HTTP Request: POST https://api.telegram.org/bot7960268313:AAHiZBou5-jdbrK4OEtE3pdGxPd3J914y70/getUpdates "HTTP/1.1 200 OK"
+2025-07-12 00:06:35,663 | INFO | Running job "start_background_monitoring.<locals>.monitor_users (trigger: interval[0:00:10], next run at: 2025-07-12 00:06:45 IST)" (scheduled at 2025-07-12 00:06:35.648523+05:30)
+2025-07-12 00:06:35,869 | INFO | Job "start_background_monitoring.<locals>.monitor_users (trigger: interval[0:00:10], next run at: 2025-07-12 00:06:45 IST)" executed successfully
+2025-07-12 00:06:37,651 | INFO | HTTP Request: POST https://api.telegram.org/bot7960268313:AAHiZBou5-jdbrK4OEtE3pdGxPd3J914y70/getUpdates "HTTP/1.1 200 OK"
+2025-07-12 00:06:45,658 | INFO | Running job "start_background_monitoring.<locals>.monitor_users (trigger: interval[0:00:10], next run at: 2025-07-12 00:06:55 IST)" (scheduled at 2025-07-12 00:06:45.648523+05:30)
+2025-07-12 00:06:45,925 | INFO | Job "start_background_monitoring.<locals>.monitor_users (trigger: interval[0:00:10], next run at: 2025-07-12 00:06:55 IST)" executed successfully
+2025-07-12 00:06:47,892 | INFO | HTTP Request: POST https://api.telegram.org/bot7960268313:AAHiZBou5-jdbrK4OEtE3pdGxPd3J914y70/getUpdates "HTTP/1.1 200 OK"
+2025-07-12 00:06:55,649 | INFO | Running job "start_background_monitoring.<locals>.monitor_users (trigger: interval[0:00:10], next run at: 2025-07-12 00:07:05 IST)" (scheduled at 2025-07-12 00:06:55.648523+05:30)
+2025-07-12 00:06:55,881 | INFO | Job "start_background_monitoring.<locals>.monitor_users (trigger: interval[0:00:10], next run at: 2025-07-12 00:07:05 IST)" executed successfully
+2025-07-12 00:06:58,132 | INFO | HTTP Request: POST https://api.telegram.org/bot7960268313:AAHiZBou5-jdbrK4OEtE3pdGxPd3J914y70/getUpdates "HTTP/1.1 200 OK"
+2025-07-12 00:07:05,654 | INFO | Running job "start_background_monitoring.<locals>.monitor_users (trigger: interval[0:00:10], next run at: 2025-07-12 00:07:15 IST)" (scheduled at 2025-07-12 00:07:05.648523+05:30)
+2025-07-12 00:07:06,906 | INFO | Job "start_background_monitoring.<locals>.monitor_users (trigger: interval[0:00:10], next run at: 2025-07-12 00:07:15 IST)" executed successfully
+2025-07-12 00:07:08,282 | INFO | HTTP Request: POST https://api.telegram.org/bot7960268313:AAHiZBou5-jdbrK4OEtE3pdGxPd3J914y70/getUpdates "HTTP/1.1 200 OK"
+2025-07-12 00:07:15,648 | INFO | Running job "start_background_monitoring.<locals>.monitor_users (trigger: interval[0:00:10], next run at: 2025-07-12 00:07:25 IST)" (scheduled at 2025-07-12 00:07:15.648523+05:30)
+2025-07-12 00:07:15,786 | INFO | Job "start_background_monitoring.<locals>.monitor_users (trigger: interval[0:00:10], next run at: 2025-07-12 00:07:25 IST)" executed successfully
+2025-07-12 00:07:18,436 | INFO | HTTP Request: POST https://api.telegram.org/bot7960268313:AAHiZBou5-jdbrK4OEtE3pdGxPd3J914y70/getUpdates "HTTP/1.1 200 OK"
+2025-07-12 00:07:25,651 | INFO | Running job "start_background_monitoring.<locals>.monitor_users (trigger: interval[0:00:10], next run at: 2025-07-12 00:07:35 IST)" (scheduled at 2025-07-12 00:07:25.648523+05:30)
+2025-07-12 00:07:25,984 | INFO | Job "start_background_monitoring.<locals>.monitor_users (trigger: interval[0:00:10], next run at: 2025-07-12 00:07:35 IST)" executed successfully

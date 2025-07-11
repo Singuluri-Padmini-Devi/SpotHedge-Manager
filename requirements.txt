@@ -1,1 +1,5 @@
- 
+logging
+python-telegram-bot>=20.0
+apscheduler
+requests
+numpy 

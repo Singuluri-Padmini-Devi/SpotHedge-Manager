@@ -1,3 +1,12 @@
+import logging
+
+logging.basicConfig(
+    filename='hedging_bot.log',
+    filemode='a',
+    format='%(asctime)s | %(levelname)s | %(message)s',
+    level=logging.INFO
+)
+
 import sys
 import os
 import asyncio
