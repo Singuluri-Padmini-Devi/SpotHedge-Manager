@@ -12,10 +12,11 @@ from apscheduler.schedulers.background import BackgroundScheduler
 from exchanges.bybit_api import get_spot_price, place_order
 from risk_engine.delta_calculator import calculate_delta
 from config.thresholds import set_threshold, get_threshold, user_thresholds
-from hedging.hedge_logger import init_db, get_hedge_history, log_hedge
+from hedging.hedge_logger import init_db, get_hedge_history, log_hedge, get_latest_hedge
 from risk_engine.portfolio_risk import calculate_var, max_drawdown
 from risk_engine.portfolio_risk import calculate_portfolio_risk
 from telegram import InlineKeyboardButton, InlineKeyboardMarkup
+
 
 
 
@@ -80,7 +81,6 @@ async def checkrisk(update: Update, context: ContextTypes.DEFAULT_TYPE):
             )
     except (IndexError, ValueError):
         await update.message.reply_text("❗ Usage: /checkrisk <position_size>")
-
 async def hedge(update: Update, context: ContextTypes.DEFAULT_TYPE):
     try:
         position_size = float(context.args[0])
@@ -96,7 +96,11 @@ async def hedge(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
         if delta_val > threshold:
             result = place_order("BTCUSDT", "SELL", position_size)
-            log_hedge(user_id, "BTCUSDT", delta_val, "AUTO_HEDGE",price)
+            
+            # 👇 ADD THIS:
+            hedge_cost = round(delta_val * 0.2, 2)  # Simulated cost
+            log_hedge(user_id, "BTCUSDT", delta_val, "AUTO_HEDGE", price, hedge_cost)
+
             await update.message.reply_text(
                 f"📉 Hedging triggered!\nDelta: {delta_val} > Threshold: {threshold}\nOrder: {result}"
             )
@@ -108,6 +112,7 @@ async def hedge(update: Update, context: ContextTypes.DEFAULT_TYPE):
     except (IndexError, ValueError):
         await update.message.reply_text("❗ Usage: /hedge <position_size>")
 
+
 async def hedge_history(update: Update, context: ContextTypes.DEFAULT_TYPE):
     user_id = update.effective_user.id
     logs = get_hedge_history(user_id)
@@ -118,12 +123,13 @@ async def hedge_history(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
     message = "🧾 *Hedge History:*\n\n"
     for log in logs:
-        timestamp, asset, delta, method, price= log
+        timestamp, asset, delta, method, price, hedge_cost = log
         message += (
             f"• `{escape_markdown(timestamp)}`: {escape_markdown(asset)}, "
-            f"Δ\\={escape_markdown(delta)}, method\\={escape_markdown(method)},"
-            f"price\\={escape_markdown(price)}\n"
+            f"Δ\\={escape_markdown(delta)}, method\\={escape_markdown(method)}, "
+            f"price\\={escape_markdown(price)}, cost\\=${escape_markdown(hedge_cost)}\n"
         )
+
 
     await update.message.reply_text(message, parse_mode=ParseMode.MARKDOWN_V2)
 async def portfolio_analytics(update: Update, context: ContextTypes.DEFAULT_TYPE):
@@ -198,6 +204,31 @@ async def status(update: Update, context: ContextTypes.DEFAULT_TYPE):
             )
     except Exception as e:
         await update.message.reply_text(f"❌ Error in bot status: {e}")
+async def hedge_status(update: Update, context: ContextTypes.DEFAULT_TYPE):
+    try:
+        user_id = update.effective_user.id
+        asset = context.args[0].upper()
+        latest = get_latest_hedge(user_id, asset)
+        if not latest:
+            await update.message.reply_text(f"📭 No hedge found for {asset}.")
+            return
+
+        timestamp, asset, delta, action, price, cost = latest  # ✅ Correct
+        message = (
+            f"📋 *Latest Hedge Status:*\n\n"
+            f"• Asset: `{escape_markdown(asset)}`\n"
+            f"• Δ\\={escape_markdown(delta)}\n"
+            f"• Price: ${escape_markdown(price)}\n"
+            f"• Method: {escape_markdown(action)}\n"
+            f"• Cost: ${escape_markdown(cost)}\n"
+            f"• Time: `{escape_markdown(timestamp)}`"
+        )
+
+        await update.message.reply_text(message, parse_mode=ParseMode.MARKDOWN_V2)
+
+    except IndexError:
+        await update.message.reply_text("❗ Usage: /hedge_status <asset>")
+
 
 
 # --- Background Monitoring ---
@@ -244,6 +275,8 @@ def main():
     app.add_handler(CommandHandler("menu", menu))
     app.add_handler(CallbackQueryHandler(button_handler))
     app.add_handler(CommandHandler("status", status))
+    app.add_handler(CommandHandler("hedge_status", hedge_status))
+
 
 
     loop = asyncio.get_event_loop()
