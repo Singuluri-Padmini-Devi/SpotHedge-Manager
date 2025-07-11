@@ -68,3 +68,18 @@ def get_latest_hedge(user_id, asset):
     except Exception as e:
         print("Error retrieving latest hedge status:", e)
         return None
+    
+def get_hedge_analytics(user_id):
+    try:
+        with sqlite3.connect(DB_FILE) as conn:
+            cursor = conn.cursor()
+            cursor.execute("""
+                SELECT COUNT(*), SUM(hedge_cost), AVG(delta), MIN(timestamp), MAX(timestamp)
+                FROM hedge_logs
+                WHERE user_id = ?
+            """, (user_id,))
+            return cursor.fetchone()
+    except Exception as e:
+        print("Error getting hedge analytics:", e)
+        return None
+

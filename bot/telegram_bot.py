@@ -12,7 +12,7 @@ from apscheduler.schedulers.background import BackgroundScheduler
 from exchanges.bybit_api import get_spot_price, place_order
 from risk_engine.delta_calculator import calculate_delta
 from config.thresholds import set_threshold, get_threshold, user_thresholds
-from hedging.hedge_logger import init_db, get_hedge_history, log_hedge, get_latest_hedge
+from hedging.hedge_logger import init_db, get_hedge_history, log_hedge, get_latest_hedge,get_hedge_analytics
 from risk_engine.portfolio_risk import calculate_var, max_drawdown
 from risk_engine.portfolio_risk import calculate_portfolio_risk
 from telegram import InlineKeyboardButton, InlineKeyboardMarkup
@@ -229,6 +229,26 @@ async def hedge_status(update: Update, context: ContextTypes.DEFAULT_TYPE):
     except IndexError:
         await update.message.reply_text("❗ Usage: /hedge_status <asset>")
 
+async def hedge_analytics(update: Update, context: ContextTypes.DEFAULT_TYPE):
+    user_id = update.effective_user.id
+    analytics = get_hedge_analytics(user_id)
+
+    if not analytics or analytics[0] == 0:
+        await update.message.reply_text("📭 No hedge analytics available.")
+        return
+
+    count, total_cost, avg_delta, first_ts, last_ts = analytics
+
+    message = (
+        "📈 *Hedge Analytics Summary:*\n\n"
+        f"• Total Hedges: `{count}`\n"
+        f"• Total Cost: `${total_cost:.2f}`\n"
+        f"• Average Δ: `{avg_delta:.2f}`\n"
+        f"• First Hedge: `{escape_markdown(first_ts)}`\n"
+        f"• Last Hedge: `{escape_markdown(last_ts)}`"
+    )
+
+    await update.message.reply_text(message, parse_mode=ParseMode.MARKDOWN_V2)
 
 
 # --- Background Monitoring ---
@@ -276,6 +296,8 @@ def main():
     app.add_handler(CallbackQueryHandler(button_handler))
     app.add_handler(CommandHandler("status", status))
     app.add_handler(CommandHandler("hedge_status", hedge_status))
+    app.add_handler(CommandHandler("hedge_analytics", hedge_analytics))
+
 
 
 
